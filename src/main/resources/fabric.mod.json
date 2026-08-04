@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "autoanchor",
+  "version": "${version}",
+  "name": "AutoAnchor",
+  "description": "Right-click a Respawn Anchor with Glowstone once and it automatically finishes charging it to max. Press Numpad 3 to toggle on/off.",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.autoanchor.AutoAnchorClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~26.2",
+    "fabric-api": "*",
+    "java": ">=25"
+  }
+}
